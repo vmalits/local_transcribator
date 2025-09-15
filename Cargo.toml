@@ -1,0 +1,8 @@
+[package]
+name = "local_transcribator"
+version = "0.1.0"
+edition = "2021"  # Note: "2024" is not a valid edition; use 2021 or 2018
+
+[dependencies]
+whisper-rs = { version = "0.14.2", features = ["metal"] }
+hound = "3.5.0"
